@@ -232,7 +232,7 @@ iframe {
         display: flex;
     }
     .centrar{
-        font-size: 30px;
+        font-size: 40px;
         position: relative;
         top: 30px;
     }
@@ -293,7 +293,7 @@ iframe {
             font-size: 0%;
         }
         100% {
-            font-size: 30px;
+            font-size: 40px;
         }
     }
 
@@ -307,15 +307,15 @@ iframe {
         width: 100%;
         font-size: 40px;
         position: absolute;
-        top: 380px;
+        top: 470px;
     }
 
     .preguntas{
         height: auto;
-        font-size: 20px;
+        font-size: 17px;
         width: 80%;
         position: relative;
-        top: 130px;
+        top: 160px;
     }
     #mainRopaDos{
         position: relative;
@@ -399,7 +399,7 @@ iframe {
         position: relative;
         top: 0px;
         height: 50px;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .hijoparrafo {
         font-size: 12px;
@@ -424,7 +424,7 @@ iframe {
         color:black;
         font-size: 30px;
         position: absolute;
-        top: 330px;
+        top: 380px;
     }
 
     @keyframes titulotienda{
@@ -453,7 +453,8 @@ iframe {
             height: auto;
     }
     .nav {
-        height: 200px;
+        height: 220px;
+        width: 100%;
         text-align: center;
         background-color: #c49e88ad;
     }
@@ -467,7 +468,6 @@ iframe {
                             "accesorios"
                             "preguntas"
                             "contacto";
-    
         justify-content: center;
     }
     nav ul li {
@@ -482,17 +482,14 @@ iframe {
         top: 10px;
         width: 20%;
         text-align: center;
+        align-self: center;
     }
     .centrar{
         position:relative;
         top: 20px;
         font-size: 25px;
     }
-    .imagenhome{
-        width: 100%;
-        grid-area: foto;
-        height: auto;
-    }  
+
 
     #mainRopaDos{
         position: relative;
@@ -646,7 +643,7 @@ iframe {
             width: 100%;
             font-size: 40px;
             position: absolute;
-            top:480px;
+            top:500px;
         }
         #mainRopaDos{
             display: grid;
