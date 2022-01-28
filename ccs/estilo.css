@@ -124,7 +124,7 @@ iframe {
     top: 330px;
 }
 .preguntas{
-    height: auto;
+    height: 800px;
     font-size: 20px;
     width: 80%;
     position: relative;
@@ -136,7 +136,6 @@ iframe {
     background-color:#BFA393;
 }
 #mainPreguntas{
-    height:800px;
     background-color:#BFA393;
 }
 .infoContacto{
@@ -151,7 +150,6 @@ iframe {
     width: 70%;
     align-self: center;
     position: relative;
-    top:10px;
 }
 
 .textocard{
@@ -189,7 +187,7 @@ iframe {
   }
 
 /* -----------------------MEDIA QUERIE <600px (TABLET)------------------ */
-@media only screen and (min-width: 428px) and (max-width:605px) {
+@media only screen and (min-width: 428px) and (max-width:606px) {
     #padre{
         height:auto;
         background-color: #BFA393;
@@ -201,7 +199,7 @@ iframe {
         top: 30px;
     }
     #mainPreguntas{
-        height:1000px;
+        height:1200px;
         background-color:#BFA393;
     }
     .user{
@@ -279,7 +277,7 @@ iframe {
         font-size: 17px;
         width: 80%;
         position: relative;
-        top: 160px;
+        top: 130px;
     }
 
     .imagenes{
@@ -452,8 +450,8 @@ iframe {
         }
 
         .preguntas{
-            height: auto;
-            font-size: 20px;
+            height: 1000px;
+            font-size: 17px;
             width: 80%;
             position: relative;
             top: 150px;
