@@ -146,64 +146,28 @@ iframe {
     top:150px;
     height: auto;
 }
+.imagenRopa{
+    height: 70%;
+    width: 70%;
+    align-self: center;
+    position: relative;
+    top:10px;
+}
 
+.textocard{
+    text-align: center;
+}
 
-#mainRopaDos{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas:"a1 a2 a3 a4"
-                        "a5 a6 a7 a8";
-    height: auto;
-    background-color: #BFA393;
-    align-items: center;
-}
-.cuadroVentaA{
-    height: 300px;
-    text-align: center;
-    grid-area: a1;
-}
-.cuadroVentaB{
-    height: 300px;
-    text-align: center;
-    grid-area: a2;
-}
-.cuadroVentaC{
-    height: 300px;
-    text-align: center;
-    grid-area: a3;
-}
-.cuadroVentaD{
-    height: 300px;
-    text-align: center;
-    grid-area: a4;
-}
-.cuadroVentaE{
-    height: 300px;
-    text-align: center;
-    grid-area: a5;
-}
-.cuadroVentaF{
-    height: 300px;
-    text-align: center;
-    grid-area: a6;
-}
-.cuadroVentaG{
-    height: 300px;
-    text-align: center;
-    grid-area: a7;
-}
-.cuadroVentaH{
-    height: 300px;
-    text-align: center;
-    grid-area: a8;
-}
 .imagenes{
     height: 150px;
 }
 .imagenes img{
     height: 100%;
     width: auto;
+}
+
+#mainRopaUno {
+    background-color: #BFA393;
 }
 
 /* FOOTER  */ 
@@ -317,66 +281,7 @@ iframe {
         position: relative;
         top: 160px;
     }
-    #mainRopaDos{
-        position: relative;
-        background-color: #BFA393;
-        top: 20px;
-        display: grid;
-        height: 1200px;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-template-areas:"area1 area2" 
-                            "area3 area4"
-                            "area5 area6"
-                            "area7 area8";
-    }
 
-    #mainRopaUno{
-        background-color: #BFA393;
-    }
-    .inicioRopa{
-        display: flex;
-    }
-    .cuadroVentaA{
-        height: 300px;
-        text-align: center;
-        grid-area: area1;
-    }
-    .cuadroVentaB{
-        height: 300px;
-        text-align: center;
-        grid-area: area2;
-    }
-    .cuadroVentaC{
-        height: 300px;
-        text-align: center;
-        grid-area: area3;
-    }
-    .cuadroVentaD{
-        height: 300px;
-        text-align: center;
-        grid-area: area4;
-    }
-    .cuadroVentaE{
-        height: 300px;
-        text-align: center;
-        grid-area: area5;
-    }
-    .cuadroVentaF{
-        height: 300px;
-        text-align: center;
-        grid-area: area6;
-    }
-    .cuadroVentaG{
-        height: 300px;
-        text-align: center;
-        grid-area: area7;
-    }
-    .cuadroVentaH{
-        height: 300px;
-        text-align: center;
-        grid-area: area8;
-    }
     .imagenes{
         height: 150px;
     }
@@ -491,59 +396,6 @@ iframe {
     }
 
 
-    #mainRopaDos{
-        position: relative;
-        top: 20px;
-        display: grid;
-        background-color: #BFA393;
-        height: 1200px;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-template-areas:"area1 area2" 
-                            "area3 area4"
-                            "area5 area6"
-                            "area7 area8";
-    }
-    .cuadroVentaA{
-            height: 300px;
-            text-align: center;
-            grid-area: area1;
-    }
-    .cuadroVentaB{
-            height: 300px;
-            text-align: center;
-            grid-area: area2;
-    }
-    .cuadroVentaC{
-            height: 300px;
-            text-align: center;
-            grid-area: area3;
-    }
-    .cuadroVentaD{
-            height: 300px;
-            text-align: center;
-            grid-area: area4;
-    }
-    .cuadroVentaE{
-            height: 300px;
-            text-align: center;
-            grid-area: area5;
-    }   
-    .cuadroVentaF{
-            height: 300px;
-            text-align: center;
-            grid-area: area6;
-    }
-    .cuadroVentaG{
-            height: 300px;
-            text-align: center;
-            grid-area: area7;
-    }
-    .cuadroVentaH{
-            height: 300px;
-            text-align: center;
-            grid-area: area8;
-    }    
     .imagenes{
             height: 150px;
     }   
@@ -645,58 +497,6 @@ iframe {
             position: absolute;
             top:500px;
         }
-        #mainRopaDos{
-            display: grid;
-            grid-template-columns:33% 33% 33%;
-            grid-template-rows: 33% 33% 33%;
-            grid-template-areas:"a1 a2 a3"
-                                "a4 a5 a6"
-                                "a7 a8 a9";
-            background-color: #BFA393;
-            align-items: center;
-        }
-        .cuadroVentaA{
-            height: 300px;
-            text-align: center;
-            grid-area: a1;
-        }
-        .cuadroVentaB{
-            height: 300px;
-            text-align: center;
-            grid-area: a2;
-        }
-        .cuadroVentaC{
-            height: 300px;
-            text-align: center;
-            grid-area: a3;
-        }
-        .cuadroVentaD{
-            height: 300px;
-            text-align: center;
-            grid-area: a4;
-        }
-        .cuadroVentaE{
-            height: 300px;
-            text-align: center;
-            grid-area: a5;
-        }
-        .cuadroVentaF{
-            height: 300px;
-            text-align: center;
-            grid-area: a6;
-        }
-        .cuadroVentaG{
-            height: 300px;
-            text-align: center;
-            grid-area: a7;
-        }
-        .cuadroVentaH{
-            height: 300px;
-            text-align: center;
-            grid-area: a8;
-        }
-
-
 
 
     }
